@@ -1,10 +1,10 @@
-function match (arg1, arg2) {
-  return arg1*arg2
-}
-let result = match(2, 5);
+// "Date","Price","Open","High","Low","Vol.","Change %"
 
-if (result === 10) {
-  console.log("Огонь");
-} else {
-  console.log("Лох");
-}
+const MAX_INDEXES_AMOUNT = 0;
+const MAX_STOCK_PRICE = 0;
+const MAX_LOSE_YEAR = 0;
+const MAX_LOSE_MONTH = 0;
+
+let data = require("./data/index.json");
+
+console.log(data["amzn"]["country"]);
