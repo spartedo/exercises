@@ -1,3 +1,3 @@
-# tm
+# exercises
 
 Hello world
